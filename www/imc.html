@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+  <script src="components/loader.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+  <script src="components/bootstrap.js"></script>
+  <script src="components/bootstrap.min.js"></script>
+  <script src="components/imc.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/imc.css">
+
+</head>
+<body>
+
+  <h1>IMC</h1><hr>
+
+  <form name="imcForm" id="imcForm" action="#">
+
+  <p><input type="text" id="altura" name="altura" placeholder="Altura"/></p>
+
+  <input type="text" id="peso" name="peso" placeholder="Peso"/></p>
+
+  <p><label><input type="radio" name="sexo" value="opção" id="sexo_0"/>Masculino</label><br>
+
+  <label><input type="radio" name="sexo" value="opção" id="sexo_1"/>Feminino</label></p>
+
+  <p><input name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()"/><button type="reset">Limpar</button></p>
+
+  </form>
+  <a href="index.html"><button>Inicio</button></a>
+</body>
+</html>

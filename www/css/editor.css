@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+#imagem{
+  width: 100%;
+  height: 90vh;
+}
+
+
+.lugarOpacidade{
+  width: 80%;
+  position: fixed; 
+  top:70vh;
+  left: 7vh;
+  color: white;
+}
+
+.lugarSaturacao{
+  width: 80%;
+  position: fixed; 
+  top:70vh;
+  left: 7vh;
+  color: white;
+  
+}
+
+label{
+  color: black;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 15vh;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;  
+  background: black;
+  outline: none;
+  opacity: 1.0;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.lugarCinza{
+  width: 80%;
+  position: fixed; 
+  top:70vh;
+  left: 7vh;
+  color: white;
+  
+}
+
+.lugarDesfoque{
+  width: 80%;
+  position: fixed; 
+  top:70vh;
+  left: 7vh;
+  color: white;
+}
+#myImage{
+  width: 100%;
+  height: 100%;
+}
+
+#chamarCamera{
+  position: fixed;
+  top: 40vh;
+  left: 10vh;
+  width:40vh; 
+  height:7vh;
+  border: solid 2px rgb(255, 0, 0);
+  border-radius: 4vh;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.saturacaoImg{
+  width: 43px;
+  margin-left: 4vh;
+  margin-top: 2vh;
+
+}
+#chamarCamera:focus{
+  outline: 0;
+}
+
+.rodapeBotoes{
+  background-color: rgb(255, 0, 0);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: inline-flex;
+}
+
+.botaoOpacidade{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoCinza{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoSaturacao{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoDesfoque{
+  width: 25%;
+  height: 100%;
+  color: white;
+ }
