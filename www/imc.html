@@ -22,17 +22,30 @@
 
   <h1>IMC</h1><hr>
 
-  <form name="imcForm" id="imcForm" action="#">
+  <form name="imcForm" id="imcForm" action="#" class="imc">
 
-  <p><input type="text" id="altura" name="altura" placeholder="Altura"/></p>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" id="altura" name="altura" placeholder="Altura"/><br><br>
+    </div>
 
-  <input type="text" id="peso" name="peso" placeholder="Peso"/></p>
+    <div class="col-xs-12">
+      <input type="text" id="peso" name="peso" placeholder="Peso"/><br><br>
+    </div>
 
-  <p><label><input type="radio" name="sexo" value="opção" id="sexo_0"/>Masculino</label><br>
+    <div class="col-xs-12">
+      <label><input type="radio" name="sexo" value="opção" id="sexo_0"/>Masculino</label><br>
+    </div>
 
-  <label><input type="radio" name="sexo" value="opção" id="sexo_1"/>Feminino</label></p>
+    <div class="col-xs-12">
+      <label><input type="radio" name="sexo" value="opção" id="sexo_1"/>Feminino</label><br><br>
+    </div>
 
-  <p><input name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()"/><button type="reset">Limpar</button></p>
+    <div class="col-xs-12">
+      <input class="boto btn btn-success" name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()"/>
+      <button type="reset" class="btn btn-danger">Limpar</button>
+    </div>
+  </div>
 
   </form>
   <a href="index.html"><button>Inicio</button></a>
